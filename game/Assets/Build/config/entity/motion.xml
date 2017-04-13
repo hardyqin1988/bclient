@@ -1,0 +1,6 @@
+<!-- <?xml version="1.0"?><?xml version="1.0"?> -->
+<entity>
+	<properties>
+    <property name="position" type="Int3" save="false" desc="坐标"/>
+	</properties>
+</entity>

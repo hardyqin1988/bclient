@@ -1,0 +1,28 @@
+<!-- <?xml version="1.0"?><?xml version="1.0"?> -->
+<entity database="GameDB" node="social">
+	<properties>
+		<property name="type" type="Byte" save="true" desc="类型"/>
+		<property name="text" type="String" save="true" desc="文本"/>
+		<property name="audio" type="String" save="true" desc="音频"/>
+		<property name="upvotes" type="Int" save="true" desc="点赞数"/>
+		<property name="timestamp" type="Long" save="true" desc="发送时间"/>
+		<property name="owner" type="PersistID" save="true" desc="所有者"/>
+		<property name="owner_name" type="String" save="true" desc="所有者昵称"/>
+	</properties>
+	<records>
+		<record name="comments" cols="5" rows="100" save="true" desc="评论">
+			<column index="0" name="sender_id" type="PersistID" desc="发送者"/>
+			<column index="1" name="receiver_id" type="PersistID" desc="接收者"/>
+			<column index="2" name="text" type="String" desc="文本"/>
+			<column index="3" name="sender_name" type="String" desc="发送者昵称"/>
+			<column index="4" name="receiver_name" type="String" desc="接收者昵称"/>
+		</record>
+		<record name="upvotes" cols="2" rows="5" save="true" desc="点赞">
+			<column index="0" name="sender_id" type="PersistID" desc="点赞者"/>
+			<column index="1" name="voter_name" type="String" desc="点赞者昵称"/>
+		</record>
+		<record name="pictures" cols="1" rows="9" save="true" desc="照片">
+			<column index="0" name="url" type="String" desc="照片地址"/>
+		</record>
+	</records>
+</entity>

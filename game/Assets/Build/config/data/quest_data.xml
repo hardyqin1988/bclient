@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects quest_id="Int" quest_type="Byte" note="String" quest_title="String" quest_desc="String" required_level="Int" quest_loot="Int" post_quest="Int" objective_id_1="Int" objective_id_2="Int" objective_id_3="Int">
+  <object quest_id="1" quest_type="2" quest_title="quest_title_1" quest_desc="quest_dec_1" required_level="0" quest_loot="25" post_quest="2" objective_id_1="1" />
+  <object quest_id="2" quest_type="2" quest_title="quest_title_2" quest_desc="quest_dec_2" required_level="0" quest_loot="25" post_quest="3" objective_id_1="2" />
+  <object quest_id="3" quest_type="2" quest_title="quest_title_3" quest_desc="quest_dec_3" required_level="0" quest_loot="25" post_quest="4" objective_id_1="3" />
+  <object quest_id="4" quest_type="2" quest_title="quest_title_4" quest_desc="quest_dec_4" required_level="0" quest_loot="25" post_quest="5" objective_id_1="9" />
+  <object quest_id="5" quest_type="2" quest_title="quest_title_5" quest_desc="quest_dec_5" required_level="0" quest_loot="25" post_quest="6" objective_id_1="10" />
+  <object quest_id="6" quest_type="2" quest_title="quest_title_6" quest_desc="quest_dec_6" required_level="0" quest_loot="25" objective_id_1="15" />
+  <object quest_id="7" quest_type="2" quest_title="quest_title_7" quest_desc="quest_dec_7" required_level="0" quest_loot="25" objective_id_1="4" />
+  <object quest_id="8" quest_type="2" quest_title="quest_title_8" quest_desc="quest_dec_8" required_level="0" quest_loot="25" objective_id_1="5" />
+  <object quest_id="9" quest_type="2" quest_title="quest_title_9" quest_desc="quest_dec_9" required_level="0" quest_loot="25" objective_id_1="6" />
+  <object quest_id="10" quest_type="2" quest_title="quest_title_10" quest_desc="quest_dec_10" required_level="0" quest_loot="25" objective_id_1="7" />
+  <object quest_id="11" quest_type="2" quest_title="quest_title_11" quest_desc="quest_dec_11" required_level="0" quest_loot="25" objective_id_1="8" />
+  <object quest_id="12" quest_type="2" quest_title="quest_title_12" quest_desc="quest_dec_12" required_level="0" quest_loot="25" objective_id_1="11" />
+  <object quest_id="13" quest_type="2" quest_title="quest_title_13" quest_desc="quest_dec_13" required_level="0" quest_loot="25" objective_id_1="12" />
+  <object quest_id="14" quest_type="2" quest_title="quest_title_14" quest_desc="quest_dec_14" required_level="0" quest_loot="25" objective_id_1="13" />
+  <object quest_id="15" quest_type="2" quest_title="quest_title_15" quest_desc="quest_dec_15" required_level="0" quest_loot="25" objective_id_1="14" />
+  <object quest_id="16" quest_type="2" quest_title="quest_title_16" quest_desc="quest_dec_16" required_level="0" quest_loot="25" objective_id_1="16" />
+  <object quest_id="17" quest_type="2" quest_title="quest_title_17" quest_desc="quest_dec_17" required_level="0" quest_loot="25" objective_id_1="17" />
+  <object quest_id="18" quest_type="3" quest_title="quest_title_18" quest_desc="quest_dec_18" required_level="0" quest_loot="27" objective_id_1="18" />
+  <object quest_id="19" quest_type="3" quest_title="quest_title_19" quest_desc="quest_dec_19" required_level="0" quest_loot="28" objective_id_1="19" />
+  <object quest_id="20" quest_type="3" quest_title="quest_title_20" quest_desc="quest_dec_20" required_level="0" quest_loot="29" objective_id_1="20" />
+  <object quest_id="21" quest_type="3" quest_title="quest_title_21" quest_desc="quest_dec_21" required_level="0" quest_loot="30" objective_id_1="21" />
+  <object quest_id="22" quest_type="3" quest_title="quest_title_22" quest_desc="quest_dec_22" required_level="0" quest_loot="31" objective_id_1="22" />
+</objects>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0"?>
+<entity>
+  <properties>
+    <property name="entry" type="Int" save="true" desc="模板"/>
+  </properties>
+
+  <records>
+    <record name="gladiator_record" cols="2" save="true" desc="角斗士表">
+      <column index="0" name="gladiator_id" type="Int" desc="角斗士编号"/>
+      <column index="1" name="gladiator_pos" type="Byte" desc="角斗士坐标"/>
+    </record>
+  </records>
+</entity>

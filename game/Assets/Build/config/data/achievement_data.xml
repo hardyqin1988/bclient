@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects achievement_id="Int" note="String" achievement_title="String" achievement_desc="String" achievement_loot="Int" post_achievement="Int" objective_id_1="Int" objective_id_2="Int" objective_id_3="Int">
+  <object achievement_id="1" achievement_title="achievement_title_1" achievement_desc="achievement_desc_1" achievement_loot="25" objective_id_1="1" objective_id_2="2" objective_id_3="3" />
+  <object achievement_id="2" achievement_title="achievement_title_2" achievement_desc="achievement_desc_2" achievement_loot="25" objective_id_1="4" objective_id_2="5" objective_id_3="6" />
+  <object achievement_id="3" achievement_title="achievement_title_3" achievement_desc="achievement_desc_3" achievement_loot="25" objective_id_1="7" objective_id_2="8" objective_id_3="9" />
+  <object achievement_id="4" achievement_title="achievement_title_4" achievement_desc="achievement_desc_4" achievement_loot="25" objective_id_1="10" objective_id_2="11" objective_id_3="12" />
+</objects>

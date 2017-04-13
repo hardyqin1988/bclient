@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<objects objective_id="Int" objective_type="Byte" note="String" objective_desc="String" kill_snake_num="Int" collect_skin_id="Int" collect_skin_num="Int" person_battle_num="Int" chip_id="Int" chip_num="Int">
+  <object objective_id="1" objective_type="1" note="杀蛇1只" objective_desc="task_objective_1" kill_snake_num="1" />
+  <object objective_id="2" objective_type="1" note="杀蛇2只" objective_desc="task_objective_2" kill_snake_num="1" />
+  <object objective_id="3" objective_type="1" note="杀蛇3只" objective_desc="task_objective_3" kill_snake_num="1" />
+  <object objective_id="4" objective_type="1" note="杀蛇4只" objective_desc="task_objective_4" kill_snake_num="1" />
+  <object objective_id="5" objective_type="1" note="杀蛇5只" objective_desc="task_objective_5" kill_snake_num="1" />
+  <object objective_id="6" objective_type="1" note="杀蛇6只" objective_desc="task_objective_6" kill_snake_num="1" />
+  <object objective_id="7" objective_type="1" note="杀蛇7只" objective_desc="task_objective_7" kill_snake_num="1" />
+  <object objective_id="8" objective_type="1" note="杀蛇8只" objective_desc="task_objective_8" kill_snake_num="1" />
+  <object objective_id="9" objective_type="2" note="获得熊猫皮肤" objective_desc="task_objective_9" collect_skin_id="6" collect_skin_num="1" />
+  <object objective_id="10" objective_type="3" note="参加个人对战1次" objective_desc="task_objective_10" person_battle_num="1" />
+  <object objective_id="11" objective_type="3" note="参加个人对战2次" objective_desc="task_objective_11" person_battle_num="2" />
+  <object objective_id="12" objective_type="3" note="参加个人对战3次" objective_desc="task_objective_12" person_battle_num="3" />
+  <object objective_id="13" objective_type="3" note="参加个人对战4次" objective_desc="task_objective_13" person_battle_num="4" />
+  <object objective_id="14" objective_type="3" note="参加个人对战5次" objective_desc="task_objective_14" person_battle_num="5" />
+  <object objective_id="15" objective_type="4" note="获得熊猫碎片1个" objective_desc="task_objective_15" chip_id="1" chip_num="1" />
+  <object objective_id="16" objective_type="4" note="获得熊猫碎片2个" objective_desc="task_objective_16" chip_id="1" chip_num="2" />
+  <object objective_id="17" objective_type="4" note="获得熊猫碎片3个" objective_desc="task_objective_17" chip_id="1" chip_num="3" />
+  <object objective_id="18" objective_type="1" note="击杀10条蛇蛇" objective_desc="task_objective_18" kill_snake_num="10" />
+  <object objective_id="19" objective_type="1" note="击杀30条蛇蛇" objective_desc="task_objective_19" kill_snake_num="30" />
+  <object objective_id="20" objective_type="3" note="参加1场个人对战" objective_desc="task_objective_20" person_battle_num="1" />
+  <object objective_id="21" objective_type="3" note="参加5场个人对战" objective_desc="task_objective_21" person_battle_num="5" />
+  <object objective_id="22" objective_type="3" note="参加10场个人对战" objective_desc="task_objective_22" person_battle_num="10" />
+</objects>

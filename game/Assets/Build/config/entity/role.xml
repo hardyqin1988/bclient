@@ -1,0 +1,7 @@
+﻿<?xml version="1.0"?>
+<entity>
+  <includes>
+    <include path="entity/player.xml"/>
+    <include path="entity/gladiator.xml"/>
+  </includes>
+</entity>

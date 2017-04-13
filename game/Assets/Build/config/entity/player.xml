@@ -1,0 +1,39 @@
+﻿<?xml version="1.0"?>
+<entity>
+  <properties>
+    <property name="entry" type="Int" save="true" desc="模板"/>
+    
+    <property name="level" type="Int" save="true" desc="等级"/>
+    <property name="cur_exp" type="Int" save="true" desc="当前经验"/>
+
+    <property name="name" type="String" save="true" desc="角色名称"/>
+  </properties>
+
+  <records>
+    <record name="achievement_record" cols="2" save="true" desc="成就进度表">
+      <column index="0" name="achievement_id" type="Int" desc="成就编号"/>
+      <column index="1" name="achievement_status" type="Byte" desc="成就状态"/>
+    </record>
+    <record name="achievement_rewarded_record" cols="1" save="true" desc="成就奖励表">
+      <column index="0" name="achievement_id" type="Int" desc="成就编号"/>
+    </record>
+    <record name="objective_record" cols="6" save="true" desc="目标进度表">
+      <column index="0" name="objective_id" type="Int" desc="目标编号"/>
+      <column index="1" name="objective_status" type="Byte" desc="目标状态"/>
+      <column index="2" name="cur_progress" type="Int" desc="当前进度"/>
+      <column index="3" name="max_progress" type="Int" desc="最大进度"/>
+      <column index="4" name="parent_type" type="Byte" desc="父类类型"/>
+      <column index="5" name="parent_id" type="Int" desc="父类编号"/>
+    </record>
+    <record name="quest_record" cols="3" save="true" desc="任务进度表">
+      <column index="0" name="quest_id" type="Int" desc="任务编号"/>
+      <column index="1" name="quest_status" type="Byte" desc="任务状态"/>
+      <column index="2" name="quest_accept_time" type="Long" desc="任务接受时间"/>
+    </record>
+    <record name="quest_rewarded_record" cols="1" save="true" desc="任务奖励表">
+      <column index="0" name="quest_id" type="Int" desc="任务编号"/>
+    </record>
+  </records>
+  <includes>
+  </includes>
+</entity>

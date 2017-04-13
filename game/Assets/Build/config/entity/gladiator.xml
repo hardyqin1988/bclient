@@ -1,0 +1,15 @@
+<!-- <?xml version="1.0"?><?xml version="1.0"?> -->
+<entity>
+	<properties>
+		<property name="hp" type="Int" save="false" desc="血量"/>
+	</properties>
+  <records>
+    <record name="equip_record" cols="2" save="true" desc="装备表">
+      <column index="0" name="equip_index" type="Int" desc="装备索引"/>
+      <column index="1" name="equip_pid" type="PersistID" desc="装备编号"/>
+    </record>
+  </records>
+  <includes>
+    <include path="entity/motion.xml"/>
+  </includes>
+</entity>

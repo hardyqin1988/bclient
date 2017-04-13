@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<entities>
+  <entity type="role" path="entity/role.xml"/>
+  <entity type="player" path="entity/player.xml"/>
+  <entity type="gladiator" path="entity/gladiator.xml"/>
+  <entity type="scene" path="entity/scene.xml"/>
+</entities>
